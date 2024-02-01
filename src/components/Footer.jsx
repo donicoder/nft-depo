@@ -14,15 +14,15 @@ export default function Footer() {
   const contactInfo = [
     {
       icon: <MdEmail />,
-      value: "kishanshet21@gmail.com",
+      value: "devusarov07@gmail.com",
     },
     {
       icon: <MdPhoneInTalk />,
-      value: "+(480) 555-0103",
+      value: "+998 90 445 62 33",
     },
     {
       icon: <IoLocationSharp />,
-      value: "1901 Thornridge Cir. Shiloh, Hawaii 81063",
+      value: "Samarkand, Uzbekistan",
     },
   ];
   const socialIcons = [
@@ -31,13 +31,15 @@ export default function Footer() {
     <BsLinkedin />,
     <FaInstagramSquare />,
   ];
+  const date = new Date()
+
   return (
     <Container>
       <div className="row">
         <div className="brand">
           <img src={logo} alt="logo" />
         </div>
-        <p className="description">1901 Thornridge Cir. Shiloh, Hawaii 81063</p>
+        <p className="description">DEPO NFT. All rights reserved {date.getFullYear()}</p>
         <div className="social-icons">
           {socialIcons.map((icon) => {
             return <div className="icon">{icon}</div>;

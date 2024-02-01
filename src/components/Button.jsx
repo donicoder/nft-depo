@@ -3,7 +3,10 @@ import styled from "styled-components";
 export default function Button({ text, blue = false }) {
   return (
     <Div>
-      <button className={`${blue ? "blue" : ""}`}>{text}</button>
+      <a href="https://t.me/projects_by_dilyorek">
+        <button className={`${blue ? "blue" : ""}`}>{text}</button>
+
+      </a>
     </Div>
   );
 }

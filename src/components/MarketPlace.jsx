@@ -60,8 +60,7 @@ export default function MarketPlace() {
       <div className="title">
         <h2>NFT Marketplace</h2>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard.
+         
         </p>
       </div>
       <div className="marketPlaceTypes">
@@ -80,7 +79,7 @@ export default function MarketPlace() {
                 <h4>{name}</h4>
                 <BsThreeDots />
               </div>
-              <h6 className="username">@koolkishansheth</h6>
+              <h6 className="username">@depo</h6>
               <div className="price-container">
                 <h5 className="price">5.5ETH</h5>
                 <FaEthereum />

@@ -19,8 +19,8 @@ export default function Home() {
             Digital NFT Market Place
           </h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard.
+            DEPO NFT marketplace is developed by Doniyor for DEPO platform.
+            Explore our projects😊↙️
           </p>
           <div className="buttons">
             <Button blue text="Explore Now" />

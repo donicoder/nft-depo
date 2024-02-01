@@ -11,22 +11,22 @@ export default function CreateAndSell() {
       image: sell1,
       title: "Create your collection",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
-      buttonText: "Create",
+        "Special website for depo. 'creating collection' is comingsoon in future ",
+      buttonText: "Explore",
     },
     {
       image: sell2,
       title: "Add your NFTs",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
-      buttonText: "Add NFT",
+        "Special website for depo. 'Add your NFTs' is comingsoon in future.",
+      buttonText: "Explore NFT",
     },
     {
       image: sell3,
       title: "List them for sale",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been.",
-      buttonText: "Sell Now",
+        "Special website for depo. 'List them for sale' is comingsoon in future.",
+      buttonText: "Explore ",
     },
   ];
   return (
